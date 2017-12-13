@@ -1,3 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: rgba(0, 0, 0, .8);
+    margin: 0;
+    padding: 10px;
+}
+h1{
+    color: #fff;
+}
+input, button {
+    outline: none;
+    border: none;
+}
+.flex-container{
+    background-color: #fcfc81;
+    padding: 10px 15px;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.flex-element{
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 50px;
+    margin: 5px;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, .1);
+}
+.box1{
+    background-color: #3498db;
+}
+.box2{
+    background-color: #9b59b6;
+}
+.box3{
+    background-color: #34495e;
+}
+.box4{
+    background-color: #f1c40f;
+}
+.box5{
+    background-color: #e67e22;
+}
+.box6{
+    background-color: #1abc9c;;
+}
+
 /* FLEX UTILITY */
 /* ===== display ===== */
 .d-flex{
